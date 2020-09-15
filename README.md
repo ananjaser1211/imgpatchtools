@@ -66,6 +66,21 @@ scriptpatcher.sh will generate all commands automatically from updater script so
 ```
 check fullpatch.sh your self, you need to provide all images and files in correct name and patch as mentioned in mount and other commands of fullpatch.sh
 
+## Compiling
+1) Grab Required Dependencies (Ubuntu 18.04 LTS)
+```
+sudo apt-get install -y libghc-bzlib-prof libbz2-dev libssl-ocaml-dev
+```
+2) compile binaries to out dir bin/
+```
+make -j4
+```
+
+3) Clean-up
+```
+make clean
+```
+
 
 ### Youtube
 [![IMG Patch Tools](https://img.youtube.com/vi/GjPoPe7IgHg/0.jpg)](https://www.youtube.com/watch?v=GjPoPe7IgHg "IMG Patch Tools")
